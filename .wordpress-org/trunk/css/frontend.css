@@ -1,0 +1,122 @@
+.rslides_container{
+  position: relative;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  display: none;
+  margin:0 !important;
+  padding: 0;
+  position: absolute;
+  left: 0;top: 0;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+.iv_slider_text{
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 0;left:0;right: 0;
+}
+.iv_slider_text p{
+    margin: 4px 4px 4px 8px !important;
+}
+.centered-btns_nav {
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  font-family: verdana;
+  font-weight:bold;
+  height: 60px;
+  line-height: 60px;
+  margin-top: -45px;
+  overflow: hidden;
+  opacity: 0.7;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 50%;
+  left: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 30px;
+  z-index: 3;
+}
+
+.centered-btns_nav:hover {
+  color: white;
+  opacity: 1.0;
+}
+
+.centered-btns_nav.next {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  left: auto;
+  right: 0;
+}
+
+.centered-btns_nav.prev {
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+
+.centered-btns_nav:focus{
+  outline: none;
+}
+
+.centered-btns_tabs{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.centered-btns_tabs li{
+  display: inline;
+  float: none;
+  _float: left;
+  *float: left;
+  margin:2px 5px !important;
+  }
+
+.centered-btns_tabs a{
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 9px;
+  height: 9px;
+  }
+
+.centered-btns_here a{
+  background: #222;
+  background: rgba(0,0,0, .8);
+  }
